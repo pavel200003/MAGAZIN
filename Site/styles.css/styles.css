@@ -1,0 +1,122 @@
+body
+{ background: linear-gradient(90deg, #f0b92f,#c5c14d,#a2e0e0);}
+*{
+margin: 0px;
+padding: 0px;
+}
+.menu li
+{
+float:left;
+list-style: none;
+margin: 10px 15px;
+}
+.menu
+{
+margin: 0 auto;
+display: table;
+}
+body {
+        background-color: #24292d;
+      }
+      
+      .slider {
+        position: relative;
+        width: 680px;
+        margin: 50px auto;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+      }
+      
+      .slider input[name="switch"] {
+        display: none;
+      }
+      
+      .switch {
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .switch label {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        margin: 0 3px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        border: 5px solid #2f363c;
+        background-color: #738290;
+      }
+      
+      #btn1:checked~.switch label[for="btn1"] {
+        background-color: rgb(116, 106, 106);
+      }
+      
+      #btn2:checked~.switch label[for="btn2"] {
+        background-color: rgb(138, 128, 128);
+      }
+      
+      #btn3:checked~.switch label[for="btn3"] {
+        background-color: rgb(117, 117, 119);
+      }
+      .slider-inner {
+        overflow: hidden;
+      }
+      
+      .slides {
+        width: 300%;
+        transition: all 0.5s;
+      }
+      
+      .slides img {
+        width: 680px;
+        height: 640px;
+        float: left;
+      }
+      
+      #btn1:checked~slider-inner slides {
+        transform: translate(0);
+      }
+      
+      #btn2:checked~.slider-inner .slides {
+        transform: translate(-680px);
+      }
+      
+      #btn3:checked~.slider-inner .slides {
+        transform: translate(-1360px);
+      }
+      body {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+      ul {
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем отступы*/
+        padding-left: 0; /*убираем отступы*/
+        margin-top:25px; /*делаем отступ сверху*/
+        background:rgb(115, 223, 44); /*добавляем фон всему меню*/
+        height: 50px; /*задаем высоту*/
+      }
+      a {
+        text-decoration: none; /*убираем подчеркивание текста ссылок*/
+        background:#49da3c; /*добавляем фон к пункту меню*/
+        color:rgb(0, 0, 0); /*меняем цвет ссылок*/
+        padding:0px 15px; /*добавляем отступ*/
+        font-family: arial; /*меняем шрифт*/
+        line-height:50px; /*ровняем меню по вертикали*/
+        display: block; 
+        border-right: 1px solid #49da3c; /*добавляем бордюр справа*/
+
+      
+      }
+      a:hover {
+        background: linear-gradient(90deg, #f0b92f,#c5c14d,#a2e0e0);}/*добавляем эффект при наведении*/
+      
+      li {
+        float:left; /*Размещаем список горизонтально для реализации меню*/
+      }           
+      #container:href {
+        padding: 40px;
+        background: radial-gradient(#8d1105, rgb(233, 6, 6));
+        }
